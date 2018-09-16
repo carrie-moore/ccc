@@ -6,7 +6,7 @@ import Layout from "../components/layout"
 export default () => (
   <Layout>
     <div>
-      <Header headerText="Carrie Carter" />
+      <Header headerText="CARRIE CARTER" />
       <h2>Developer | Designer</h2>
       <img src="https://source.unsplash.com/random/400x200" alt="" />
 
