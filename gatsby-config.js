@@ -15,6 +15,15 @@ module.exports = {
                 accessToken: DELIVERY_API_KEY,
             },
         },
+        // For PREVIEW API (includes contentful drafts)
+        // {
+        //   resolve: `gatsby-source-contentful`,
+        //   options: {
+        //     spaceId: SPACE_ID,
+        //     accessToken: PREVIEW_API_KEY,
+        //     host: `preview.contentful.com`,
+        //   },
+        // },
         {
             resolve: `gatsby-plugin-typography`,
             options: {
